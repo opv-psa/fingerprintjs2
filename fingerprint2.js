@@ -113,6 +113,7 @@
       keys = this.hasLiedOsKey(keys);
       keys = this.hasLiedBrowserKey(keys);
       keys = this.touchSupportKey(keys);
+      console.log('[FINGERPRINT2] Fingerprint sources:  %o', keys);
       var that = this;
       this.fontsKey(keys, function(newKeys){
         var values = [];
